@@ -15,7 +15,10 @@ export default function RootLayout({ children }) {
       
       <body className={inter.className}>
         <Navber className=""></Navber>
+        <div className="bg-black">
         {children}
+        </div>
+      
         </body>
     </html>
   );

@@ -4,11 +4,12 @@ import img from './../../../public/Helal.png'
 
 const Banner = () => {
     return (
-        <div className="bg-slate-800">
+        <div className="">
             <div className='grid grid-cols-2'>
                 <div className='text-xl '>
                     <div>
-                    Hi I'M Helal
+                    Hi I'M MD HELAL UDDIN BISWAS <br></br>
+                    MERN Stack Developer
                     </div>
                 </div>
                 <div className='flex items-center justify-center'><Image
