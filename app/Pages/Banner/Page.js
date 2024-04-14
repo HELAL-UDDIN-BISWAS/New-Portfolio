@@ -5,11 +5,12 @@ import img from './../../../public/Helal.png'
 const Banner = () => {
     return (
         <div className="">
-            <div className='grid grid-cols-2'>
-                <div className='text-xl '>
+            <div className='grid md:grid-cols-2'>
+                <div className='text-xl sm:my-5 flex items-center justify-center'>
                     <div>
-                    Hi I'M MD HELAL UDDIN BISWAS <br></br>
-                    MERN Stack Developer
+                        <h2 className='text-4xl my-3 '>Welcome My Profile</h2>
+                        Hi I'M MD HELAL UDDIN BISWAS <br></br>
+                        MERN Stack Developer
                     </div>
                 </div>
                 <div className='flex items-center justify-center'><Image
