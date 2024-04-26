@@ -36,8 +36,6 @@ const Navber = () => {
             <Navbar.Link linkName="Projects" />
             <Navbar.Link linkName="About" /> */}
 
-
-
             </Navbar.Container>
             <Navbar.Collapse collapseType="sidebar bg-white">
               <Navbar.Container tag="ul" className="flex flex-col gap-5">

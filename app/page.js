@@ -4,6 +4,7 @@ import AboutMe from "./Pages/AboutSection/page";
 import Skills from "./Pages/MySkills/page";
 import Section from "./Pages/Section/page";
 import Project from "./Pages/Project/Page";
+import ContectUs from "./Pages/Contect Us/page";
 
 export default function Home() {
   return (
@@ -28,6 +29,12 @@ export default function Home() {
         </h2>
       </div>
       <Project></Project>
+      <div className="text-center my-6 items-center">
+        <h2 className=" text-2xl">Contect Us
+          <hr className="max-w-40 mx-auto text-center justify-center items-center"></hr>
+        </h2>
+      </div>
+      <ContectUs/>
     </div>
   );
 }
