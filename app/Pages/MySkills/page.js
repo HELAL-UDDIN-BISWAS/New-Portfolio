@@ -1,7 +1,4 @@
 "use client";
-import { Swiper, SwiperSlide } from 'swiper/react';
-// // Import Swiper styles
-import 'swiper/css';
 import image from "../../../public/html-5.png"
 import image1 from "../../../public/css-3.png"
 import image2 from "../../../public/javascript.png"
@@ -10,6 +7,9 @@ import image4 from "../../../public/node.png"
 import image5 from "../../../public/express.png"
 import image6 from "../../../public/mongodb.png"
 import Image from 'next/image';
+import { Swiper, SwiperSlide } from 'swiper/react';
+// // Import Swiper styles
+import 'swiper/css';
 
 
 const Skills = () => {
@@ -24,7 +24,8 @@ const Skills = () => {
                     onSlideChange={() => console.log('slide change')}
                     onSwiper={(swiper) => console.log(swiper)}
                 >
-                    <SwiperSlide><div className=' border border-white rounded-sm items-center justify-center text-center'>
+                    <SwiperSlide>
+                        <div className=' border border-white rounded-sm items-center justify-center text-center'>
                         <Image
                             className='items-center justify-center text-center my-4 mx-auto'
                             src={image}
