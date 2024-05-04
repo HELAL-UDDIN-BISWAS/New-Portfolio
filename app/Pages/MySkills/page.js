@@ -16,11 +16,101 @@ const Skills = () => {
     return (
         <div className='max-w-6xl mx-auto'>
 
-            <div>
+            <div className="hidden md:block">
                 <Swiper
                     className='text-2xl hover:cursor-pointer text-center'
                     spaceBetween={50}
                     slidesPerView={5}
+                    onSlideChange={() => console.log('slide change')}
+                    onSwiper={(swiper) => console.log(swiper)}
+                >
+                    <SwiperSlide>
+                        <div className=' border border-white rounded-sm items-center justify-center text-center'>
+                        <Image
+                            className='items-center justify-center text-center my-4 mx-auto'
+                            src={image}
+                            width={100}
+                            height={100}
+                            alt="Picture of the author"
+                        ></Image>
+                        <h3>90%</h3>
+                        <p className='my-4'>HTML 5</p>
+                    </div></SwiperSlide>
+                    <SwiperSlide><div className='border border-white rounded-sm items-center justify-center text-center'>
+                        <Image
+                            className='items-center justify-center text-center my-4 mx-auto'
+                            src={image1}
+                            width={100}
+                            height={100}
+                            alt="Picture of the author"
+                        ></Image>
+                        <h3>92%</h3>
+                        <p className='my-4'>CSS 3</p>
+                    </div></SwiperSlide>
+                    <SwiperSlide><div className='border border-white rounded-sm items-center justify-center text-center'>
+                        <Image
+                            className='items-center justify-center text-center my-4 mx-auto'
+                            src={image2}
+                            width={100}
+                            height={100}
+                            alt="Picture of the author"
+                        ></Image>
+                        <h3>80%</h3>
+                        <p className='my-4'>HTML 5</p>
+                    </div></SwiperSlide>
+                    <SwiperSlide><div className='border border-white rounded-sm items-center justify-center text-center'>
+                        <Image
+                            className='items-center justify-center text-center my-4 mx-auto'
+                            src={image3}
+                            width={100}
+                            height={100}
+                            alt="Picture of the author"
+                        ></Image>
+                        <h3>90%</h3>
+                        <p className='my-4'>HTML 5</p>
+                    </div></SwiperSlide>
+                    <SwiperSlide><div className='border border-white rounded-sm items-center justify-center text-center'>
+                        <Image
+                            className='items-center justify-center text-center my-4 mx-auto'
+                            src={image4}
+                            width={100}
+                            height={100}
+                            alt="Picture of the author"
+                        ></Image>
+                        <h3>90%</h3>
+                        <p className='my-4'>HTML 5</p>
+                    </div></SwiperSlide>
+                    <SwiperSlide><div className='border border-white rounded-sm items-center justify-center text-center'>
+                        <Image
+                            className='items-center justify-center text-center my-4 mx-auto'
+                            src={image5}
+                            width={100}
+                            height={100}
+                            alt="Picture of the author"
+                        ></Image>
+                        <h3>90%</h3>
+                        <p className='my-4'>HTML 5</p>
+                    </div></SwiperSlide>
+                    <SwiperSlide><div className='border border-white rounded-sm items-center justify-center text-center'>
+                        <Image
+                            className='items-center justify-center text-center my-4 mx-auto'
+                            src={image6}
+                            width={100}
+                            height={100}
+                            alt="Picture of the author"
+                        ></Image>
+                        <h3>90%</h3>
+                        <p className='my-4'>HTML 5</p>
+                    </div></SwiperSlide>
+
+                    ...
+                </Swiper>
+            </div>
+            <div className="md:hidden">
+                <Swiper
+                    className='text-2xl hover:cursor-pointer text-center'
+                    spaceBetween={50}
+                    slidesPerView={2}
                     onSlideChange={() => console.log('slide change')}
                     onSwiper={(swiper) => console.log(swiper)}
                 >

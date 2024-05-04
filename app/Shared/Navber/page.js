@@ -26,12 +26,12 @@ const Navber = () => {
               className="lg:flex hidden text-white items-center justify-between gap-8"
             >
 
-              <li>
+              {/* <li>
                 <Link className={`link ${pathname === '/' ? 'text-red-600' : 'text-red-400'}`} href="/">
                   Home
                 </Link>
               </li>
-              <li>home</li>
+              <li>home</li> */}
               {/* <Navbar.Link className="text-white" linkName="Home" />
             <Navbar.Link linkName="Projects" />
             <Navbar.Link linkName="About" /> */}

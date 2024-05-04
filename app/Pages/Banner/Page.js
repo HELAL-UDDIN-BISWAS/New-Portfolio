@@ -8,7 +8,7 @@ const Banner = () => {
             <div className='grid md:grid-cols-2'>
                 <div className='text-xl sm:my-5 flex items-center justify-center'>
                     <div>
-                        <h2 className='text-4xl my-3 '>Welcome My Profile</h2>
+                        <h2 className='text-4xl my-3 '>Welcome My Portfolio</h2>
                         Hi I'M MD HELAL UDDIN BISWAS <br></br>
                         MERN Stack Developer
                     </div>
